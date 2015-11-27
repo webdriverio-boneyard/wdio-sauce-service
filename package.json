@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/webdriverio/wdio-sauce-service#readme",
   "dependencies": {
+    "request": "^2.67.0"
   },
   "devDependencies": {
     "babel": "^5.8.23",
