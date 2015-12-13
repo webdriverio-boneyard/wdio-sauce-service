@@ -14,6 +14,10 @@ class SauceService {
         this.sauceAPIUri = `https://saucelabs.com/rest/v1/${this.sauceUser}/jobs/${this.sessionId}`
     }
 
+    beforeSuite (suite) {
+        this.suiteTitle = suite.title
+    }
+
     /**
      * update Sauce Labs job
      */
@@ -43,6 +47,12 @@ class SauceService {
      */
     getBody (failures) {
         let body = {}
+
+        /**
+         * set default values
+         */
+        body.name = this.suiteTitle
+
         for (let prop of jobDataProperties) {
             if (!this.capabilities[prop]) {
                 continue
