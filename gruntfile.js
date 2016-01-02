@@ -7,8 +7,13 @@ module.exports = function (grunt) {
                 sourceMap: false
             },
             dist: {
-                src: 'index.js',
-                dest: 'build/index.js'
+                files: [{
+                    expand: true,
+                    cwd: './lib',
+                    src: ['*.js'],
+                    dest: 'build',
+                    ext: '.js'
+                }]
             }
         },
         mocha_istanbul: {
@@ -24,7 +29,7 @@ module.exports = function (grunt) {
         },
         watch: {
             dist: {
-                files: 'index.js',
+                files: ['./lib/*.js'],
                 tasks: ['babel:dist']
             }
         },

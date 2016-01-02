@@ -2,7 +2,7 @@
   "name": "wdio-sauce-service",
   "version": "0.0.1",
   "description": "WebdriverIO service for better Sauce Labs integration",
-  "main": "build/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
