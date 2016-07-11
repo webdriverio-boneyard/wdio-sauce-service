@@ -55,6 +55,7 @@
     "sinon": "^1.17.2"
   },
   "contributors": [
-    "Christian Bromann <github@christian-bromann.com>"
+    "Christian Bromann <github@christian-bromann.com>",
+    "Pranjal Raihan <Pranjal.Raihan@am.sony.com>"
   ]
 }
