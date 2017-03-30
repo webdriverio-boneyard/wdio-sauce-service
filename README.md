@@ -26,7 +26,7 @@ Instructions on how to install `WebdriverIO` can be found [here.](http://webdriv
 ## Configuration
 
 In order to use the service you need to set `user` and `key` in your `wdio.conf.js` file. It will automatically
-use Sauce Labs to run your integration tests. If you want to use [Sauce Connect](https://wiki.saucelabs.com/display/DOCS/Using+Sauce+Connect+for+Testing+Behind+the+Firewall+or+on+Localhost)
+use Sauce Labs to run your integration tests. If you want to use [Sauce Connect](https://wiki.saucelabs.com/display/DOCS/Sauce+Connect+Proxy)
 you just need to set `sauceConnect: true`.
 
 ```js
