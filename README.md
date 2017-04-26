@@ -1,7 +1,7 @@
 WDIO Sauce Labs Service
 =======================
 
-[![Code Climate](https://codeclimate.com/github/webdriverio/wdio-sauce-service/badges/gpa.svg)](https://codeclimate.com/github/webdriverio/wdio-sauce-service) [Code Climate](https://codeclimate.com/github/webdriverio/wdio-sauce-service/badges/gpa.svg)](https://codeclimate.com/github/webdriverio/wdio-sauce-service)
+[![Code Climate](https://codeclimate.com/github/webdriverio/wdio-sauce-service/badges/gpa.svg)](https://codeclimate.com/github/webdriverio/wdio-sauce-service) [Code Climate](https://codeclimate.com/github/webdriverio/wdio-sauce-service/badges/gpa.svg)](https://codeclimate.com/github/webdriverio/wdio-sauce-service) [![dependencies Status](https://david-dm.org/webdriverio/wdio-sauce-service/status.svg)](https://david-dm.org/webdriverio/wdio-sauce-service)
 
 ***
 
