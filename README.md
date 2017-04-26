@@ -79,13 +79,10 @@ Watch changes:
 $ npm run watch
 ```
 
-Run tests:
+Run tests (there are non yet, please help to get unit test - see [here](https://github.com/webdriverio/wdio-sauce-service/issues/1)):
 
 ```sh
 $ npm test
-
-# run test with coverage report:
-$ npm run test:cover
 ```
 
 Build package:
