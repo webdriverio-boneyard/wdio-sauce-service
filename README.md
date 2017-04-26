@@ -1,5 +1,9 @@
-WDIO Sauce Labs Service [![Code Climate](https://codeclimate.com/github/webdriverio/wdio-sauce-service/badges/gpa.svg)](https://codeclimate.com/github/webdriverio/wdio-sauce-service)
-==========
+WDIO Sauce Labs Service
+=======================
+
+[![Code Climate](https://codeclimate.com/github/webdriverio/wdio-sauce-service/badges/gpa.svg)](https://codeclimate.com/github/webdriverio/wdio-sauce-service) [Code Climate](https://codeclimate.com/github/webdriverio/wdio-sauce-service/badges/gpa.svg)](https://codeclimate.com/github/webdriverio/wdio-sauce-service)
+
+***
 
 > A WebdriverIO service. It updates the job metadata ('name', 'passed', 'tags', 'public', 'build', 'custom-data') and runs Sauce Connect if desired.
 
@@ -10,7 +14,7 @@ The easiest way is to keep `wdio-sauce-service` as a devDependency in your `pack
 ```json
 {
   "devDependencies": {
-    "wdio-sauce-service": "~0.1"
+    "wdio-sauce-service": "~0.3.2"
   }
 }
 ```
@@ -64,6 +68,31 @@ Apply Sauce Connect options (e.g. to change port number or logFile settings). Se
 
 Type: `Object`<br>
 Default: `{}`
+
+## Development
+
+All commands can be found in the package.json. The most important are:
+
+Watch changes:
+
+```sh
+$ npm run watch
+```
+
+Run tests:
+
+```sh
+$ npm test
+
+# run test with coverage report:
+$ npm run test:cover
+```
+
+Build package:
+
+```sh
+$ npm build
+```
 
 ----
 

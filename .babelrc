@@ -1,0 +1,14 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "node": 0.12
+      }
+    }],
+    "stage-0"
+  ],
+  "plugins": [
+    "add-module-exports",
+    "transform-object-assign"
+  ]
+}
