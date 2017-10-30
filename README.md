@@ -14,7 +14,7 @@ The easiest way is to keep `wdio-sauce-service` as a devDependency in your `pack
 ```json
 {
   "devDependencies": {
-    "wdio-sauce-service": "~0.3.2"
+    "wdio-sauce-service": "~0.4.4"
   }
 }
 ```
