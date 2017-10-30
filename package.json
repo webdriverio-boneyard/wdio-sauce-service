@@ -2,20 +2,10 @@
   "name": "wdio-sauce-service",
   "version": "0.4.1",
   "description": "WebdriverIO service for better Sauce Labs integration",
+  "author": "Christian Bromann <christian@saucelabs.com>",
+  "homepage": "https://github.com/webdriverio/wdio-sauce-service#readme",
+  "license": "MIT",
   "main": "index.js",
-  "scripts": {
-    "build": "run-s clean compile",
-    "clean": "rm -rf ./build",
-    "compile": "babel lib/ -d build/",
-    "eslint": "eslint ./lib",
-    "release": "np patch",
-    "release:patch": "np patch",
-    "release:minor": "np minor",
-    "release:major": "np major",
-    "test": "run-s eslint",
-    "prepublish": "npm prune",
-    "watch": "npm run compile -- --watch"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/webdriverio/wdio-sauce-service.git"
@@ -30,32 +20,42 @@
     "cloud",
     "wdio-service"
   ],
-  "author": "Christian Bromann <christian@saucelabs.com>",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/webdriverio/wdio-sauce-service/issues"
   },
-  "homepage": "https://github.com/webdriverio/wdio-sauce-service#readme",
+  "scripts": {
+    "build": "run-s clean compile",
+    "clean": "rm -rf ./build",
+    "compile": "babel lib/ -d build/",
+    "eslint": "eslint ./lib",
+    "release": "np patch",
+    "release:patch": "np patch",
+    "release:minor": "np minor",
+    "release:major": "np major",
+    "test": "run-s eslint",
+    "prepublish": "npm prune",
+    "watch": "npm run compile -- --watch"
+  },
   "dependencies": {
-    "request": "2.81.0",
-    "sauce-connect-launcher": "1.2.3"
+    "request": "~2.83.0",
+    "sauce-connect-launcher": "~1.2.3"
   },
   "devDependencies": {
-    "babel-cli": "6.24.1",
-    "babel-core": "6.24.1",
-    "babel-eslint": "7.2.3",
-    "babel-plugin-add-module-exports": "0.2.1",
-    "babel-plugin-transform-object-assign": "6.22.0",
-    "babel-preset-env": "1.4.0",
-    "babel-preset-stage-0": "6.24.1",
-    "eslint": "3.19.0",
-    "eslint-config-standard": "10.2.1",
-    "eslint-plugin-import": "2.2.0",
-    "eslint-plugin-node": "4.2.2",
-    "eslint-plugin-promise": "3.5.0",
-    "eslint-plugin-standard": "3.0.1",
-    "np": "2.13.3",
-    "npm-run-all": "4.0.2"
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "np": "^2.13.3",
+    "npm-run-all": "^4.0.2"
   },
   "contributors": [
     "Christian Bromann <github@christian-bromann.com>",
