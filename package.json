@@ -54,7 +54,7 @@
     "eslint-plugin-node": "^4.2.2",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
-    "np": "^2.13.3",
+    "np": "^3.0.4",
     "npm-run-all": "^4.0.2"
   },
   "contributors": [
