@@ -37,7 +37,7 @@
     "watch": "npm run compile -- --watch"
   },
   "dependencies": {
-    "request": "~2.83.0",
+    "request": "^2.88.0",
     "sauce-connect-launcher": "~1.2.3"
   },
   "devDependencies": {
